@@ -13,7 +13,7 @@ export const Contact = () => {
     }
     async function HandleSubmit(e){
         e.preventDefault();
-        const response=await fetch("http://127.0.0.1:8000/api/contact/",{
+        const response=await fetch("https://my-portfolio-2-ddw9.onrender.com/api/contact/",{
             method:"POST",headers:{"Content-Type":"application/json",},body:JSON.stringify(formdata),
         });
         if(response.ok){
