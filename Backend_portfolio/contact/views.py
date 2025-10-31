@@ -8,6 +8,7 @@ from django.conf import settings
 @api_view(['POST'])
 
 def contact_view(request):
+    print("Request data:", request.data)
     name = request.data.get('name')
     email = request.data.get('email')
     message = request.data.get('message')
