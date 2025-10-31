@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bnd#(@4ht9y@gt-iur@_7jq0g43i&9xepr=1ovisi8lvi37xjy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://namish-portfolio-backend-wv1t.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://namish-portfolio-backend-wv1t.onrender.com','https://namishmahajanportfolio.vercel.app/' , 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -139,3 +139,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'namishmahajan2005@gmail.com'
 EMAIL_HOST_PASSWORD = 'finl hopq nikk qvsj' 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://namishmahajanportfolio.vercel.app",
+]
