@@ -16,7 +16,7 @@ export const Contact = () => {
         e.preventDefault();
         emailjs.sendForm(
             "service_4vbjj9a",
-            "template_j1njako",
+            "template_xumbkcc",
             e.target,
             "public_key_Uw4iEvxiIM7ty88Ju"
         )
