@@ -18,15 +18,16 @@ export const Contact = () => {
             "service_4vbjj9a",
             "template_xumbkcc",
             e.target,
-            "public_key_Uw4iEvxiIM7ty88Ju"
+            "Uw4iEvxiIM7ty88Ju"
         )
         .then(() => {
             alert("Your Message is sent Successfully. I will get back to you shortly.");
+            window.location.href="https://namishmahajanportfolio.vercel.app/";
         })
         .catch(() => {
             alert("Failed to send message. Please try again after some time.");
+            window.location.href="https://namishmahajanportfolio.vercel.app/";
         });
-        window.location.href="https://namishmahajanportfolio.vercel.app/"
     };
     return(
     <>
