@@ -14,9 +14,15 @@ export const Contact = () => {
     }
     async function HandleSubmit(e){
         e.preventDefault();
-        emailjs.sendForm(
+        await emailjs.sendForm(
             "service_4vbjj9a",
             "template_xumbkcc",
+            e.target,
+            "Uw4iEvxiIM7ty88Ju"
+        )
+        await emailjs.sendForm(
+            "service_4vbjj9a",
+            "template_t2e92bl",
             e.target,
             "Uw4iEvxiIM7ty88Ju"
         )
