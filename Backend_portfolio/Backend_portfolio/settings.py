@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-bnd#(@4ht9y@gt-iur@_7jq0g43i&9xepr=1ovisi8lvi37xjy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://namish-portfolio-backend-wv1t.onrender.com','https://namishmahajanportfolio.vercel.app/' , 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [
+    'namish-portfolio-backend-wv1t.onrender.com',
+    'namishmahajanportfolio.vercel.app',
+    'localhost',
+    '127.0.0.1'
+]
+
 
 
 # Application definition
@@ -127,7 +133,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "https://namishmahajanportfolio.vercel.app",
-    "https://namishportfolio.vercel.app/"
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True 
