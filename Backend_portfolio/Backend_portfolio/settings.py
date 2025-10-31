@@ -127,6 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "https://namishmahajanportfolio.vercel.app",
+    "https://namishportfolio.vercel.app/"
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True 

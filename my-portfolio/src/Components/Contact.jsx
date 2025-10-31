@@ -23,7 +23,7 @@ export const Contact = () => {
         else{
             alert("Failed to send your message. Please try again later.")
         }
-        window.location.href="http://localhost:5173/"
+        window.location.href="https://namishmahajanportfolio.vercel.app/"
     };
     return(
     <>
