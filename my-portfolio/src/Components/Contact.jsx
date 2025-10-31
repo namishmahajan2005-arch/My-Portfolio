@@ -3,6 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { useState } from 'react';
+import emailjs from "emailjs-com";
 
 
 export const Contact = () => {
@@ -13,16 +14,18 @@ export const Contact = () => {
     }
     async function HandleSubmit(e){
         e.preventDefault();
-        const response=await fetch("https://namish-portfolio-backend-wv1t.onrender.com/api/contact/",{
-            method:"POST",headers:{"Content-Type":"application/json",},body:JSON.stringify(formdata),
+        emailjs.sendForm(
+            "service_4vbjj9a",
+            "template_j1njako",
+            e.target,
+            "public_key_Uw4iEvxiIM7ty88Ju"
+        )
+        .then(() => {
+            alert("Your Message is sent Successfully. I will get back to you shortly.");
+        })
+        .catch(() => {
+            alert("Failed to send message. Please try again after some time.");
         });
-        if(response.ok){
-            alert("Your Message is sent Successfully. I will get back to you shortly.")
-
-        }
-        else{
-            alert("Failed to send your message. Please try again later.")
-        }
         window.location.href="https://namishmahajanportfolio.vercel.app/"
     };
     return(
