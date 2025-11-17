@@ -1,6 +1,5 @@
 import React from 'react'
 import '../App.css'
-import photo from "../assets/photo_white_bg.png";   
 import image from "../assets/my-photo.jpg"
 
 export const About = () => {
