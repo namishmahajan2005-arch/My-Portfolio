@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
-import photo from "../assets/photo_white_bg.png"; 
+import photo from "../assets/photo_white_bg.png";   
+import image from "../assets/my-photo.jpg"
 
 export const About = () => {
   return (
@@ -8,9 +9,9 @@ export const About = () => {
       <div data-aos="slide-down" className='h4'>About Me</div>
       <div className=' w-full sm:flex xl:w-7/10 xl:mx-auto pt-10'>
          <div data-aos="slide-right" className='sm:w-2/5 sm:justify-end lg:pr-15 flex justify-center items-center my-10 '>
-          <div className='w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center shadow-xl'>
+          <div className='w-64 h-64 rounded-full bg-[#B88F6A]/40 flex items-center justify-center shadow-xl'>
             <div className="w-60 h-60 rounded-full bg-white flex items-center justify-center overflow-hidden ">
-              <img src={photo} alt="Profile" className="w-full h-full object-contain"/>
+              <img src={image} alt="Profile" className="object-contain"/>
             </div>
           </div>
         </div>
