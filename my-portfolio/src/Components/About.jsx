@@ -15,7 +15,7 @@ export const About = () => {
           </div>
         </div>
         <div data-aos="slide-left" className='text-lg px-5 sm:w-3/5 sm:px-10'>
-          <p>I am a 3rd-year Electronics and Communication student at <span className='text-blue-600'>NIT Srinagar</span>, skilled in frontend technologies including HTML, CSS, JavaScript, and React, as well as backend development with Django.</p>
+          <p>I am a 3rd-year Electronics and Communication student at <a className='text-blue-600' href="https://nitsri.ac.in/">National Institute of Technology, Srinagar</a>, skilled in frontend technologies including HTML, CSS, JavaScript, and React, as well as backend development with Django.</p>
           <br></br>
           <p>I love building full-stack applications with responsive design and interactive features. My passion lies in creating seamless user experiences while ensuring robust backend functionality.</p>
           <br></br>
