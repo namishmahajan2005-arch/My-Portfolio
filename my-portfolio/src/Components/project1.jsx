@@ -24,7 +24,7 @@ export function Project1() {
                             
                             ))}
                         </ul>
-                        <div className='grid grid-cols-4 sm:flex gap-2 my-5 '>
+                        <div className='grid grid-cols-4 lg:flex gap-2 my-5 '>
                             {usedComponents.map((item,index)=>(
                                 <div className='flex items-center justify-center text-center  bg-gray-200 rounded-lg px-2 py-1 text-xs sm:px-3 sm:text-sm' key={index}>{item}</div>
                             ))}

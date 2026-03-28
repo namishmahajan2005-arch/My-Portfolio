@@ -23,7 +23,7 @@ export function Project2() {
                     <li key={index} className='flex gap-1.5 items-center mt-2 font-[350] text-gray-700'><span className='text-green-500'><FaCheckCircle/></span>{value}</li>
                   ))}
                 </ul>
-                <div className='grid grid-cols-4 sm:flex gap-2 my-5'>
+                <div className='grid grid-cols-4 lg:flex gap-2 my-5'>
                   {usedComponents.map((item,index)=>(
                     <div className='bg-gray-200 rounded-lg px-2 py-1 flex justify-center items-center text-xs text-center sm:px-3 sm:text-sm' key={index}>{item}</div>
                   ))}
