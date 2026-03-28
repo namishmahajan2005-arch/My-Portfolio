@@ -25,7 +25,7 @@ export const Skills = () => {
                     <div className={`bg-gradient-to-br ${item1.color} h-30 flex justify-center items-center rounded-2xl hover:scale-115 transition duration-750 ease-in shadow-xl`} key={index}>
                         <div>
                             <div className='flex justify-center text-5xl'>{item1.icon}</div>
-                            <span className='flex justify-center mt-3 text-white font-semibold text-lg'>{item1.name}</span>
+                            <span className='flex justify-center text-center mt-3 text-white font-semibold text-lg'>{item1.name}</span>
                         </div>
                     </div>
                 ))}
